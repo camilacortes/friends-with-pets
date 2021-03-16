@@ -1,8 +1,12 @@
 import React from 'react'
 
-function Friends(){
+function Friends(props){
   return(
-    <h1> Friends component </h1>
+    <div className="box">
+    
+    <h1>Owner: {props.name}</h1>
+    <h1>Age: {props.age}</h1>
+    </div>
   )
 }
 
