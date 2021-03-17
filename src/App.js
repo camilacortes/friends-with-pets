@@ -1,15 +1,13 @@
 import React from 'react';
 import Friendlist from './components/Friendlist';
-import Friends from './components/Friends'
-import Pet from './components/Pet'
+
 
 function App() {
   return (
    <div>
+     <h1 className="header"> Owners & Pets </h1>
      <Friendlist/>
-     <Friends/>
-     <Pet/>
-   </div>
+  </div>
   );
 }
 

@@ -1,3 +1,38 @@
-body{
-  color: red;
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.box {
+  display: inline-block;
+  border: solid white;
+  width: 400px;
+  margin: 15px;
+  padding: 15px;
+  -webkit-box-shadow: 2px 5px 20px 0px #000000;
+  box-shadow: 2px 5px 20px 0px #000000;
+}
+
+.pet-name {
+  color: #81aa53;
+}
+
+.pet-breed {
+  color: #5b7c3b;
+}
+.owner-name {
+  color: #53653f;
+}
+
+.owner-age {
+  color: #718062;
 }
